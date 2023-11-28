@@ -1,0 +1,35 @@
+#sz1{
+    grid-area: s1;
+    text-align: center;
+}
+
+#sz3{
+    grid-area: s3;
+    text-align: center;
+}
+
+#sz2{
+    grid-area: s2;   
+    text-align: right;
+}
+#sz4{
+    grid-area: s4;
+    text-align: left;
+    color: red;
+}
+#k{
+    grid-area: kep; 
+    text-align: left; 
+}
+#fo{
+    display: grid;
+    grid-template-areas:
+    's1 s4 s4'
+    's1 kep s2'
+    's3 s3 s3';
+}
+#fo *{
+    border: 1px solid black;
+    padding: 5px;
+    padding-bottom: 0px ;
+}
